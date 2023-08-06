@@ -5,3 +5,7 @@
 
 
 git merge --no-ff setting-topic 
+
+git rebase -i HEAD~n (n: 합칠 커밋 갯수)
+pick 할꺼 (마지막으로 남기고 싶은 커밋) pick -> s (squash) 로 수정하고, wq 로 저장.
+로그 정리하고, wq로 저장하면 rebase 됨.
